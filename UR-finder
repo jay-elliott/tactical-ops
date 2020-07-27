@@ -1,0 +1,7 @@
+select vehicle_id,
+last_gps_location_lat,
+last_gps_location_lon
+
+from public.vehicles_dm
+
+where vehicle_id in ()
